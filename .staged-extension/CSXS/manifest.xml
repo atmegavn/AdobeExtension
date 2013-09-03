@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExtensionManifest Version="3.0" ExtensionBundleId="com.example.HDMAMExtension" ExtensionBundleVersion="1.0.0"
+		ExtensionBundleName="HDMAMExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ExtensionList>
+		<Extension Id="com.example.HDMAMExtension.extension1" Version="1.0" />
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PPRO" Version="[6.0,6.9]" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All" />
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="3.0" />
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.example.HDMAMExtension.extension1">
+			<DispatchInfo >
+				<Resources>
+					<SwfPath>./HDMAMExtension.swf</SwfPath>
+				</Resources>
+				<Lifecycle>
+					<AutoVisible>true</AutoVisible>
+				</Lifecycle>
+				<UI>
+					<Type>ModalDialog</Type>
+					<Menu>HDMAMExtension</Menu>
+					<Geometry>
+						<Size>
+							<Height>200</Height>
+							<Width>200</Width>
+						</Size>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>
