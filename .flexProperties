@@ -1,3 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<flexProperties enableServiceManager="false" flexServerFeatures="0" flexServerType="0" fmlDataModelLocation=".model/HDMAMExtension.fml" toolCompile="true" useServerFlexSDK="false" version="1"/>
-
+<flexProperties enableServiceManager="false" flexServerFeatures="0" flexServerType="16" fmlDataModelLocation=".model/HDMAMExtension.fml" serverContextRoot="" serverRoot="C:/wamp/www" serverRootURL="http://localhost/" toolCompile="true" useServerFlexSDK="false" version="1"/>

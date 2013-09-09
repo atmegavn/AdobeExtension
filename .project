@@ -22,4 +22,11 @@
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 		<nature>com.adobe.cside.project.csidenature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>bin-debug</name>
+			<type>2</type>
+			<location>C:/wamp/www/HDMAMExtension-debug</location>
+		</link>
+	</linkedResources>
 </projectDescription>
